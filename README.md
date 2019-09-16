@@ -18,4 +18,4 @@ Standard neural transfer was supplemented by masking. There are two IPython Note
 ##### There are image and style:  
 <img src="Images/image.jpg" width="304">
 <img src="Images/style1.jpg" width="400">  
-### Post-processing:  
+##### Post-processing
