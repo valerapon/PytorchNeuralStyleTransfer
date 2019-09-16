@@ -15,7 +15,13 @@ Have fun :-)
 ----  
 
 Standard neural transfer was supplemented by masking. There are two IPython Notebook with different overlay methods: overlay with optimizing function and post-processing two images.  
-##### There are image and style:  
-<img src="Images/image.jpg" width="304">
-<img src="Images/style1.jpg" width="400">  
-##### Post-processing
+### There are image and style:  
+<img src="Images/image.jpg" width="304"> <img src="Images/style1.jpg" width="400">   
+### Mask:  
+<img src="Images/mask.png" width="304">
+### Post-processing:   
+<img src="Images/post-proc.png" width="304">
+Main idea is overlay old image and image created with new style. Overlay is performed using the formula:  
+
+`new_image_tensor = style_tensor * mask + image_tensor * (1 - mask)`  
+
