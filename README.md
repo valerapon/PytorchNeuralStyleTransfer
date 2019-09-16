@@ -1,4 +1,4 @@
-# PytorchNeuralStyleTransfer
+# PytorchNeuralStyleTransferModified
 
 Code to run Neural Style Transfer from our paper [Image Style Transfer Using Convolutional Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html).
 
@@ -13,3 +13,9 @@ Everything else is in the IPythonNotebook `NeuralStyleTransfer.ipynb`
 Have fun :-)
 
 ----  
+
+Standard neural transfer was supplemented by masking. There are two IPython Notebook with different overlay methods: overlay with optimizing function and post-processing two images.  
+##### There are image and style:  
+<img src="Images/image.jpg" width="304">
+<img src="Images/style1.jpg" width="400">  
+##### Post-processing:  
