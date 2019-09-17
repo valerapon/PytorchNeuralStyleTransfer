@@ -20,8 +20,6 @@ Standard neural transfer was supplemented by masking. There are two IPython Note
 ### Mask and Post-processing:  
 <img src="Images/mask.png" width="304"> <img src="Images/post-proc.png" width="304">    
 
-### Post-processing:   
-<img src="Images/post-proc.png" width="304">  
 How to create mask:   
 
 ```
