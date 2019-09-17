@@ -34,5 +34,8 @@ def create_mask(size):
 
 Main idea is overlay old image and image created with new style. Overlay is performed using the formula:  
 
-`new_image_tensor = style_tensor * mask + image_tensor * (1 - mask)`  
+```
+new_image_tensor = style_tensor * mask + image_tensor * (1 - mask)
+```
+
 
